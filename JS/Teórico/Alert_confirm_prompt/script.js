@@ -8,6 +8,6 @@ y = Number(y)
 
 alert(y + x)
 
-
+// Toda essa interação é feita dentro da página do HTML
 
 

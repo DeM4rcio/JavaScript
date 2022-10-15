@@ -14,6 +14,6 @@ console.log(numero1 + numero2)
 // A resolução desta precisão pode ser tratada da seguinte maneira
 
 numero1 += numero2;
-numero1 = Number(numero1.toFixed(2));
+numero1 = Number(numero1.toFixed(2)); // transformamos em tipo numérico e depois arrendondamos para duas casas decimais
 
 console.log(numero1)
