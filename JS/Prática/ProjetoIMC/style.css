@@ -22,6 +22,7 @@ body{
    margin: 50px auto;
    padding: 20px;
    border-radius: 20px;
+
 }
 
 form input, form label, form button{
@@ -52,3 +53,4 @@ form button{
 form button:hover{
     background-color: black;
 }
+
