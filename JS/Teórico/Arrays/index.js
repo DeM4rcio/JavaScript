@@ -38,5 +38,10 @@ console.log(alunos)
 console.log(typeof alunos);
 console.log(alunos instanceof Array);
 
+// Podemos atribuir via desestruturação 
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const [primeiro , segundo, ...resto] = numeros; // Desestruturando o array original e atribundo as constantes
+console.log(resto)
 
 
